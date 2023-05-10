@@ -1,0 +1,12 @@
+.card{
+    flex-basis: 25%;
+    min-width: 33%;
+}
+
+
+@media screen and (max-width:600px){
+    .card{
+        flex-basis: 50%;
+        width: fit-content;
+    }
+}
