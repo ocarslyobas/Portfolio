@@ -7,6 +7,7 @@ import Education from './pages/Education/Education'
 import Navb from './Components/Navb';
 import Footer from './Components/Footer';
 import Contact from './pages/Contact-Me/Contact';
+import "./App.css";
 
 
 
