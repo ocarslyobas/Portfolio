@@ -85,9 +85,12 @@
     font-size: 15px;
     margin-top: -40px;
     white-space: pre-wrap;
-    
-    
-    
+      
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
 }
 
 
@@ -129,6 +132,12 @@
         margin-top: 10px;
 
     }
+
+    .footer{
+        position: absolute;
+        bottom: 0px;
+    }
+
 }
 
 .image-rounded{
