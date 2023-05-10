@@ -9,7 +9,6 @@
 
 .Home{
     width: 100%;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #3e497a;
     position: relative;
@@ -55,6 +54,12 @@
 
 #viewtext{
     text-decoration: none;
+}
+
+
+.imagebox{
+
+    min-height: 40vh;
 }
 
 .skills{
