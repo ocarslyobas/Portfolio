@@ -18,7 +18,7 @@ const Home = ()=> {
                 <div className='about'>
                     <h2>Hi, My name is Christopher</h2>
                     <div className='prompt'>
-                        <p className='prompt-text'>A Front-End Developer and Data Analyst with a passion for transforming acquired knowledge to solving problems</p>
+                        <p className='prompt-text'>A Front-End Developer and Data Analyst with a passion for transforming acquired knowledge to solving problems.</p>
                         <div className='resumedownload'>
                         <span>Download my Resume</span>
                         <a href="https://drive.google.com/file/d/1OZ1SxktGToQFw9KDnPbFnPcIw8Y1c-AS/view?usp=sharing" target="_blank" id="viewtext"><span className='mx-2' ><b> Data Analyst</b></span></a>
@@ -26,7 +26,7 @@ const Home = ()=> {
                         </div>
                     </div>
 
-                    <div className='prompt'>
+                    <div className='promptsvg'>
 
                         <Link to={'/contact'}><FaEnvelope size={20}/></Link>
                         <a href='https://github.com/ocarslyobas' target="_blank"><FaGithub size={20} /></a>

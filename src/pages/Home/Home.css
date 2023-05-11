@@ -165,7 +165,17 @@
   }
   
   .about {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 45px;
+  
   }
   
   .prompt {
@@ -173,6 +183,15 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
+  }
+
+  .promptsvg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    margin: 1rem;
+    width: 100px;
   }
   
   .prompt-text {
@@ -195,17 +214,24 @@
   }
   
   .imagebox {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
   
   .image-rounded {
-    border-radius: 50%;
+    border-radius: 20px;
     max-width: 100%;
     height: auto;
   }
   
   .skills {
-    margin-top: 2rem;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
   }
   
   .skillshead {
@@ -235,10 +261,45 @@
   }
   
   /* Responsive styles */
-  @media screen and (min-width: 600px) {
+  @media screen and (max-width: 600px) {
     .Home {
       padding: 2rem;
     }
+
+    .prompt {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resumedownload {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+      }
+
+    .skills{
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+    .list{
+        margin-top: -1.5rem;
+        margin-top: 0px;
+        
+    }
+
+    .skillshead{
+        font-weight: bolder;
+        font-size: xx-large;
+        color: rgb(74, 74, 246)
+    }
+
   }
   
   @media screen and (min-width: 768px) {
@@ -248,7 +309,11 @@
       align-items: center;
     }
     .prompt {
-      justify-content: flex-start;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .prompt-text {
       margin-right: 1rem;
@@ -262,6 +327,12 @@
       justify-content: space-between;
       margin-top: 4rem;
     }
+
+    .h1 {
+        font-weight: bolder;
+      }
+
+
     .item {
       flex-basis: 48%;
     }
