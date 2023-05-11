@@ -282,12 +282,14 @@
         margin-top: 1rem;
       }
 
-    .skills{
+      .skills{
         margin-top: 1.5rem;
         display: flex;
         flex-direction: column;
-      }
-
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
     .list{
         margin-top: -1.5rem;
         margin-top: 0px;
@@ -359,6 +361,17 @@
 
     .skills{
         margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .skillshead{
+    
+        color: rgb(74, 74, 246)
     }
 
     
