@@ -343,18 +343,24 @@
       max-width: 1200px;
     }
     .about {
-      margin-top: 4rem;
+      margin-top: 1rem;
     }
     .prompt {
       margin-top: 2rem;
     }
     .imagebox {
-      margin-top: 4rem;
+      margin-top: 0.5rem;
     }
     .image-rounded {
       max-width: 50%;
       float: left;
       margin-right: 2rem;
     }
+
+    .skills{
+        margin-top: 1rem;
+    }
+
+    
   }
   
