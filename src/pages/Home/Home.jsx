@@ -35,7 +35,7 @@ const Home = ()=> {
                     </div>
                     
                     <div className='imagebox'>
-                        <img src={office_pic1} alt="photo" className='image-rounded' />
+                        {/* <img src={office_pic1} alt="photo" className='image-rounded' /> */}
                     </div>
                     <div className='skills'>
                         <h1 className="skillshead">Skills Acquired</h1>
