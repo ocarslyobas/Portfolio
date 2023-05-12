@@ -4,8 +4,7 @@ import photo3 from "../Assets/photo/photo3.jpg";
 import photo4 from "../Assets/photo/photo4.jpg";
 import photo5 from "../Assets/photo/photo4.jpg";
 import photo6 from "../Assets/photo/photo4.jpg";
-
-
+import Dashboardimage1 from "../Assets/photo/data images/Dashboardimage1.jpg"
 
 
 
@@ -58,10 +57,11 @@ export const ProjectListFrontend = [
 
 export const ProjectListData = [
     {  
-        title : "Loading...",
-        image : photo1,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
+        title : "Kriscom-BI-sales-report",
+        image : Dashboardimage1,
+        description : "A Report analysing sales performance for kriscom LTD",
+        buttontext : "Explore project",
+        link:"https://github.com/ocarslyobas/Kriscom-BI-sales-report/blob/main/B%20I%20sales%20dashboards/kriscom%20sales.pbix"
     },
     {  
         title : "Loading...",
