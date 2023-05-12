@@ -49,7 +49,8 @@ const Projects = ()=> {
                     title={proj.title} 
                     image={proj.image} 
                     description={proj.description} 
-                    buttontext={proj.buttontext} 
+                    buttontext={proj.buttontext}
+                    link={proj.link} 
                     />;
                 })
                }
