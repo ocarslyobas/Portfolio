@@ -1,15 +1,22 @@
 import photo1 from "../Assets/photo/photo1.jpg";
-import photo2 from "../Assets/photo/photo2.jpg";
 import photo3 from "../Assets/photo/photo3.jpg";
-import photo4 from "../Assets/photo/photo4.jpg";
-import photo5 from "../Assets/photo/photo4.jpg";
-import photo6 from "../Assets/photo/photo4.jpg";
-import Dashboardimage1 from "../Assets/photo/data images/Dashboardimage1.jpg"
+import Dogratings from "../Assets/photo/data images/Dogratings.jpg";
+import Dashboardimage1 from "../Assets/photo/data images/Dashboardimage1.jpg";
+import Portfolioimage from "../Assets/photo/web images/Portfolioimage.jpg";
+import Merchantimage from "../Assets/photo/web images/Merchantimage.jpg";
+
 
 
 
 
 export const ProjectListFrontend = [
+    {  
+        title : "My Portfolio",
+        image :Portfolioimage,
+        description : "My portfolio project",
+        buttontext : "Explore project",
+        link:"http://google.com"
+    },
     {  
         title : "Fund Laraweb App",
         image : photo1,
@@ -18,39 +25,13 @@ export const ProjectListFrontend = [
         link:"http://google.com"
     },
     {  
-        title : "Loading...",
-        image : photo2,
-        description : "A webapp created to fund Lara's teratment for insomia",
+        title : "Merchant App",
+        image : Merchantimage,
+        description : " An E-commerce website where merchants signup to sell their goods and services",
         buttontext : "Explore project",
-        link:"http://google.com"
-    },
-    {  
-        title : "Loading...",
-        image : photo3,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project",
-        link:"http://google.com"
-    },
-    {  
-        title : "Loading...",
-        image : photo4,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project",
-        link:"http://google.com"
-    },
-    {  
-        title : "Loading...",
-        image : photo5,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project",
-        link:"http://google.com"
-    },
-    {  
-        title : "Loading...",
-        image : photo6,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
+        link:"https://merchant.odudu.ng"
     }
+   
 ]
 
 
@@ -64,36 +45,17 @@ export const ProjectListData = [
         link:"https://github.com/ocarslyobas/Kriscom-BI-sales-report/blob/main/B%20I%20sales%20dashboards/kriscom%20sales.pbix"
     },
     {  
-        title : "Loading...",
-        image : photo2,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
+        title : "We rate dogs",
+        image : Dogratings,
+        description : "The WeRateDog dataset was gotten from a twitter account WeRateDogs, that rates twitted images of dogs",
+        buttontext : "Explore project",
+        link:"https://github.com/ocarslyobas/We-rate-Dog-ALXproject2"
     },
-    {  
-        title : "Loading...",
-        image : photo3,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
-    },
-    {  
-        title : "Loading...",
-        image : photo4,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
-    },
-
-    {  
-        title : "Loading...",
-        image : photo3,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
-    },
-
     {  
         title : "Loading...",
         image : photo3,
         description : "A webapp created to fund Lara's teratment for insomia",
         buttontext : "Explore project"
     }
-   
+    
 ]
