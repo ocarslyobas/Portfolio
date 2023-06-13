@@ -4,6 +4,7 @@ import Dogratings from "../Assets/photo/data images/Dogratings.jpg";
 import Dashboardimage1 from "../Assets/photo/data images/Dashboardimage1.jpg";
 import Portfolioimage from "../Assets/photo/web images/Portfolioimage.jpg";
 import Merchantimage from "../Assets/photo/web images/Merchantimage.jpg";
+import Fordbikeimage from "../Assets/photo/data images/Fordbikeimage.jpg";
 
 
 
@@ -52,10 +53,11 @@ export const ProjectListData = [
         link:"https://github.com/ocarslyobas/We-rate-Dog-ALXproject2"
     },
     {  
-        title : "Loading...",
-        image : photo3,
-        description : "A webapp created to fund Lara's teratment for insomia",
-        buttontext : "Explore project"
+        title : "FordGoBike",
+        image : Fordbikeimage,
+        description : "An analysis of the FordGoBike bike sharing system of the  greater San Fransisco bay area.",
+        buttontext : "Explore project",
+        link:"https://github.com/ocarslyobas/FordGoBike-Project-Alx3"
     }
     
 ]
