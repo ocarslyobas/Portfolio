@@ -16,14 +16,14 @@ export const ProjectListFrontend = [
         image :Portfolioimage,
         description : "My portfolio project",
         buttontext : "Explore project",
-        link:"http://google.com"
+        link:"https://portfolio-one-beryl-95.vercel.app/"
     },
     {  
         title : "Fund Laraweb App",
         image : photo1,
         description : "A webapp created to fund Lara's teratment for insomia",
         buttontext : "Explore project",
-        link:"http://google.com"
+        link:"http://savelara.wuaze.com/"
     },
     {  
         title : "Merchant App",
