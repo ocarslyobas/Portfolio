@@ -21,7 +21,7 @@ export const ProjectListFrontend = [
     {  
         title : "Fund Laraweb App",
         image : photo1,
-        description : "A webapp created to fund Lara's teratment for insomia",
+        description : "A webapp created to fund Lara's teratment",
         buttontext : "Explore project",
         link:"http://savelara.wuaze.com/"
     },
